@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Happy Shopping </title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body id = "body">
+   <div class="cartArea" id="cartArea1"> 
+      <div class="imageName">
+         <img class="productImage" src="images/product-1.png" alt="Product-1">
+         <h2 class="productName">iPhone 11 128GB Black</h2>
+      </div>
+      <div class="priceQ">
+         <h1 class="minnes" id="minnesQty">-</h1>
+         <h1 class="qtyInput" id="inputQty">1</h1>
+         <h1 class="plus" id="plusQty">+</h1>
+         <h1 class="price">$<span id="priceAmount">1219</span></h1>
+         <img class="close" id = "closeItem1" src="images/remove.png">
+      </div>
+   </div>
+   <div class="cartArea" id="cartArea2"> 
+      <div class="imageName">
+         <img class="productImage" src="images/product-2.png" alt="Product-1">
+         <h2 class="productName">iPhone 11 Silicone Case - Black</h2>
+      </div>
+      <div class="priceQ">
+         <h1 class="minnes" id="minnesQtyp2">-</h1>
+         <h1 class="qtyInput" id="inputQtyp2">1</h1>
+         <h1 class="plus" id="plusQtyp2">+</h1>
+         <h1 class="price">$<span id="priceAmountp2">59</span></h1>
+         <img class="close" id = "closeItem2" src="images/remove.png">
+      </div>
+   </div>
+   <!-- <div class="cartArea"> 
+      <div class="imageName">
+         <img class="productImage" src="images/product-1.png" alt="Product-1">
+         <h2 class="productName">iPhone 11 128GB Black</h2>
+      </div>
+      <div class="priceQ">
+         <h1 class="minnes">-</h1>
+         <input class="qtyInput" type="number">
+         <h1 class="plus">+</h1>
+         <h1 class="price">$<span class="priceAmount">1219</span></h1>
+         <img class="close" src="images/remove.png">
+      </div>
+   </div> -->
+   <div class="cartArea">
+      <div class="calculationName">
+         <h2>Subtotal :</h2>
+         <h2>Tax :</h2>
+         <h2>Total :</h2>
+      </div>
+      <div class="calcilationAmount">
+         <h2>$<span id='subTotal'>0</span></h2>
+         <h2>$<span id='tax'>0</span></h2>
+         <h2>$<span id ='total'>0</span></h2>
+      </div>
+   </div>
+   <div class="btnDiv">
+      <button class="checkOutBtn" id="checkOut">Check Out</button>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
